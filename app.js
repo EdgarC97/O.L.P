@@ -1,3 +1,32 @@
+// // Primero, necesitas importar Three.js y FBXLoader
+// import * as THREE from 'three';
+// import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
+
+// // Crear escena, cámara y renderizador
+// const scene = new THREE.Scene();
+// const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+// const renderer = new THREE.WebGLRenderer();
+
+// renderer.setSize(window.innerWidth, window.innerHeight);
+// document.body.appendChild(renderer.domElement);
+
+// // Configurar la cámara
+// camera.position.z = 5;
+
+// // Cargar el archivo FBX
+// const loader = new FBXLoader();
+// loader.load('ruta/al/archivo.fbx', (fbx) => {
+//   scene.add(fbx);
+// });
+
+// // Función de animación
+// const animate = function () {
+//   requestAnimationFrame(animate);
+//   renderer.render(scene, camera);
+// };
+
+// animate();
+
 //Import the THREE.js library
 import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
 // To allow for the camera to move around the scene
